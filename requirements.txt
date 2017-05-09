@@ -1,0 +1,5 @@
+FukuML==0.4.1
+jieba==0.38
+gensim==1.0.1
+Pattern
+uniout
