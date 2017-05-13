@@ -28,6 +28,13 @@ for i, line in enumerate(fp):
     lyrics.append(line)
 fp.close()
 
+url = [];
+fp = open("data/lyrics_url.dataset")
+for i, line in enumerate(fp):
+    url.append(line)
+fp.close()
+
 for lyric in sims[:5]:
     print "\n相似歌詞：",  lyrics[lyric[0]]
     print "相似度：",  lyric[1]
+    print "試聽連結：",  url[lyric[0]]
